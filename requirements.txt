@@ -1,0 +1,15 @@
+langchain-community
+langchain
+langchain-core
+ipykernel
+python-dotenv
+validators
+youtube_transcript_api
+langchain-groq
+bs4
+streamlit
+unstructured
+pytube
+transformers
+nltk
+yt-dlp
