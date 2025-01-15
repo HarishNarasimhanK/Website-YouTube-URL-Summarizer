@@ -117,7 +117,7 @@ else:
             try:
                 with st.spinner("Loading🔃.."):
                     ## loading the website or yt video data
-                    if "youtube.com" or "youtu.be" in url:
+                    if "youtube.com" in url or "youtu.be" in url:
                         data = get_youtube_transcript(url)
                     else:
                         loader = UnstructuredURLLoader(urls = [url],
