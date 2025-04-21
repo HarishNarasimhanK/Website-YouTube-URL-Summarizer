@@ -90,7 +90,7 @@ st.set_page_config(page_title = "Document Summarizer", page_icon = "🌐")
 st.title("Document Summarizer")
 
 # getting API Key
-groq_api_key = st.sidebar.text_input("TYPE YOUR GROQ API KEY⬇️⬇️ ",placeholder = "GROQ API Key", type = "password")
+groq_api_key = st.sidebar.text_input("TYPE YOUR GROQ API KEY⬇️⬇️ ",placeholder = "GROQ API Key", type = "password", value = "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")
 
 if not groq_api_key or not validate_api_key(groq_api_key):
     st.sidebar.error("PLEASE ENTER A VALID API KEY")
